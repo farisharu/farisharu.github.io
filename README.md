@@ -10,15 +10,10 @@ Double-click `index.html`. It opens in Chrome or Edge and works offline.
 - **Desktop:** pick a title on the left, or use the ← → arrow keys.
 - **Phone:** swipe the title row, or use Prev and Next at the bottom.
 
-## Publish free on GitHub Pages (≈10 minutes)
-1. **Create the repository.** Sign in to GitHub as **farisharu**, then create a new **public** repository named exactly **`farisharu.github.io`**.
-2. **Upload the files.** Click **Add file → Upload files**, then drag in everything inside this `website` folder:
-   - `index.html`, `styles.css`, `main.js`
-   - the `img` and `fonts` folders
+## Live site
+**https://farisharu.github.io/** is served by GitHub Pages from the public repo `farisharu/farisharu.github.io`, branch `main`, root folder. It was first published on 6 Nov 2026.
 
-   Then click **Commit changes**.
-3. **Turn on Pages.** Go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, branch **main**, folder **/ (root)**, and click **Save**.
-4. **Check the live site.** After 1–2 minutes it is live at **https://farisharu.github.io/**.
+**To update it:** this folder is the repo. Edit the files, then commit and push to `main` (or ask Claude to "publish the site changes"). The live site refreshes 1–2 minutes later.
 
 **Link straight to a game** by adding its id after `#`:
 - `https://farisharu.github.io/#monkey-king`
