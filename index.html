@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Faris, game programmer and producer</title>
+<meta name="description" content="Portfolio of Faris, a lead game programmer from Surabaya, Indonesia, moving into game production. 14 titles shipped since 2018.">
+<meta name="theme-color" content="#04070D">
+<meta property="og:title" content="Faris, game programmer and producer">
+<meta property="og:description" content="14 titles shipped since 2018. Pick one to see what I built.">
+<meta property="og:image" content="img/art-ig.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2304070D'/%3E%3Crect x='3' y='3' width='26' height='26' fill='none' stroke='%236BE4FF' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23FF3B47'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app" data-view="titles">
+
+<!-- ===================== TOP BAR ===================== -->
+<header class="bar bar--top">
+  <a class="brand" href="#titles" data-go="titles"><span class="brand__mark" aria-hidden="true"></span>FRP<span class="brand__sep" aria-hidden="true">//</span><span class="brand__ja" lang="ja">ポートフォリオ</span></a>
+  <nav class="views" aria-label="Screens">
+    <a href="#titles" data-go="titles"><span lang="ja">作品</span>Titles</a>
+    <a href="#profile" data-go="profile"><span lang="ja">プロフィール</span>Profile</a>
+    <a href="#credits" data-go="credits"><span lang="ja">経歴</span>Credits</a>
+    <a href="#contact" data-go="contact"><span lang="ja">連絡先</span>Contact</a>
+  </nav>
+  <p class="bar__meta" aria-hidden="true"><span class="barcode" data-code="FRP2026SBY"></span><span>Surabaya 2026</span></p>
+</header>
+
+<main>
+
+<!-- ===================== TITLES ===================== -->
+<section class="view view--titles" id="titles" data-view="titles" aria-labelledby="who-name">
+
+  <aside class="rail">
+    <div class="who">
+      <h1 class="who__name" id="who-name"><span>Faris</span></h1>
+      <p class="who__kana" lang="ja">ファリス</p>
+      <p class="who__line">Lead game programmer, moving into production. Pick a title to see what I built.</p>
+    </div>
+
+    <p class="rail__head"><span lang="ja">タイトル選択</span><span>Select title</span><span class="rail__count">14</span></p>
+    <div class="list" role="tablist" aria-label="Games" aria-orientation="vertical">
+      <a class="item" role="tab" id="tab-influencer-girl" href="#influencer-girl" aria-controls="influencer-girl"><span class="no">01</span><span class="nm">Influencer Girl</span><span class="yr">2026</span></a>
+      <a class="item" role="tab" id="tab-cat-life-world" href="#cat-life-world" aria-controls="cat-life-world"><span class="no">02</span><span class="nm">Cat Life World</span><span class="yr">2024</span></a>
+      <a class="item" role="tab" id="tab-go-go-cat-shelter" href="#go-go-cat-shelter" aria-controls="go-go-cat-shelter"><span class="no">03</span><span class="nm">Go Go Cat Shelter</span><span class="yr">2025</span></a>
+      <a class="item" role="tab" id="tab-monkey-king" href="#monkey-king" aria-controls="monkey-king"><span class="no">04</span><span class="nm">Monkey King</span><span class="yr">2025</span></a>
+      <a class="item" role="tab" id="tab-my-avatar" href="#my-avatar" aria-controls="my-avatar"><span class="no">05</span><span class="nm">My Avatar</span><span class="yr">2026</span></a>
+      <a class="item" role="tab" id="tab-bubble-tanks" href="#bubble-tanks" aria-controls="bubble-tanks"><span class="no">06</span><span class="nm">Bubble Tanks</span><span class="yr">2024</span></a>
+      <a class="item" role="tab" id="tab-geometry-tank" href="#geometry-tank" aria-controls="geometry-tank"><span class="no">07</span><span class="nm">Geometry Tank</span><span class="yr">2026</span></a>
+      <a class="item" role="tab" id="tab-kiko-survivor" href="#kiko-survivor" aria-controls="kiko-survivor"><span class="no">08</span><span class="nm">Kiko Survivor</span><span class="yr">2024</span></a>
+      <a class="item" role="tab" id="tab-kiko-run" href="#kiko-run" aria-controls="kiko-run"><span class="no">09</span><span class="nm">Kiko Run</span><span class="yr">2023</span></a>
+      <a class="item" role="tab" id="tab-weatherby" href="#weatherby" aria-controls="weatherby"><span class="no">10</span><span class="nm">Weatherby</span><span class="yr">2022</span></a>
+      <a class="item" role="tab" id="tab-jelimata" href="#jelimata" aria-controls="jelimata"><span class="no">11</span><span class="nm">Jelimata</span><span class="yr">2020</span></a>
+      <a class="item" role="tab" id="tab-work-runner" href="#work-runner" aria-controls="work-runner"><span class="no">12</span><span class="nm">Work Runner</span><span class="yr">2020</span></a>
+      <a class="item" role="tab" id="tab-bitter-dream" href="#bitter-dream" aria-controls="bitter-dream"><span class="no">13</span><span class="nm">Bitter Dream</span><span class="yr">2020</span></a>
+      <a class="item" role="tab" id="tab-potion-permit" href="#potion-permit" aria-controls="potion-permit"><span class="no">14</span><span class="nm">Potion Permit</span><span class="yr">2019</span></a>
+    </div>
+  </aside>
+
+  <div class="band" aria-hidden="true">
+    <span class="band__no">01</span>
+    <span class="band__title">Influencer Girl</span>
+    <span class="band__genre" lang="ja">着せ替えライフシム</span>
+  </div>
+
+  <div class="stage">
+    <div class="stage__top" aria-hidden="true"><span class="hazard"></span><span class="stage__code">IGH-2026</span><span class="stage__sun"></span></div>
+    <div class="stage__frame">
+      <div class="stage__art" aria-hidden="true"></div>
+      <div class="stage__kanji" aria-hidden="true" lang="ja"></div>
+      <span class="stage__genre" aria-hidden="true" lang="ja">着せ替えライフシム</span>
+      <button class="stage__full btn btn--sm" type="button">Full image</button>
+    </div>
+    <div class="stage__bottom" aria-hidden="true"><span class="stage__role">Lead programmer and PM</span><span class="barcode" data-code="SELECT01"></span></div>
+  </div>
+
+  <div class="panel">
+
+    <!-- 01 -->
+    <article class="card" id="influencer-girl" role="tabpanel" aria-labelledby="tab-influencer-girl"
+      data-no="01" data-code="IGH-2026" data-genre="着せ替えライフシム" data-band="Influencer Girl" data-role="Lead programmer and PM"
+      data-art="img/art-ig.webp" data-full="img/ig-1.webp">
+      <img class="card__art" src="img/art-ig.webp" alt="Influencer Girl key art" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">IGH-2026</p>
+        <h2>Influencer Girl <span class="sub">Hollywood Life</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2026</dd></div>
+        <div><dt>Role</dt><dd>Lead programmer and project manager; systems and story design</dd></div>
+        <div><dt>Length</dt><dd>13 months, ongoing</dd></div>
+        <div><dt>Genre</dt><dd>Fashion and influencer life sim</dd></div>
+        <div><dt>Tools</dt><dd>Unity 6, C#, Firebase, LevelPlay, Unity IAP, Spine, Claude Code, Trello</dd></div>
+      </dl>
+      <p class="lede">I run both the code and the production on this live game. I plan scope and milestones, review nearly every pull request from my teammates, have published every release from 1.0 to 3.0, and designed and built many of its later systems and story chapters.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Production</b><span class="d">Scope and milestones planned in Trello, with delivery coordinated across programming, art and marketing through 30 releases in five months.</span></li>
+          <li><span class="n">02</span><b>Quest engine</b><span class="d">A data-driven quest system with objectives, story gates and validators, then the whole main story moved onto it.</span></li>
+          <li><span class="n">03</span><b>Story and quests</b><span class="d">The Act 3 finale and the Bronx act, NPC bond conversations and over 90 side quests, backed by a story bible.</span></li>
+          <li><span class="n">04</span><b>Scene architecture</b><span class="d">Each city rebuilt as one scene so doors load nothing, with the HUD, phone and banners in one global UI.</span></li>
+          <li><span class="n">05</span><b>Live features</b><span class="d">Designed and built the Cat House pets and a 200-level match 3, plus daily activities, timed events and friend lists.</span></li>
+          <li><span class="n">06</span><b>Monetisation and tools</b><span class="d">Server-checked in-app purchases, the analytics plan, a five-language localisation pipeline, editor tools and most of the EditMode tests.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/ig-1.webp"><img src="img/ig-1.webp" alt="Influencer Girl: drama with rivals" width="1400" height="646" loading="lazy"></a></li>
+          <li><a href="img/ig-2.webp"><img src="img/ig-2.webp" alt="Influencer Girl: shopping for outfits" width="1400" height="646" loading="lazy"></a></li>
+          <li><a href="img/ig-3.webp"><img src="img/ig-3.webp" alt="Influencer Girl: chat choices with friends" width="1400" height="646" loading="lazy"></a></li>
+          <li><a href="img/ig-4.webp"><img src="img/ig-4.webp" alt="Influencer Girl: from nothing to famous" width="1400" height="646" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://influencer-girl.onelink.me/rxaU/IGstaWB">Get the game</a></p>
+    </article>
+
+    <!-- 02 -->
+    <article class="card" id="cat-life-world" role="tabpanel" aria-labelledby="tab-cat-life-world"
+      data-no="02" data-code="CLW-2024" data-genre="仮想ペット" data-band="Cat Life World" data-role="Lead programmer"
+      data-art="img/art-clw.webp" data-full="img/clw-1.webp">
+      <img class="card__art" src="img/art-clw.webp" alt="Cat Life World key art: a cat next to a phone" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">CLW-2024</p>
+        <h2>Cat Life World <span class="sub">Build a Story</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2024 to 2026</dd></div>
+        <div><dt>Role</dt><dd>Lead programmer</dd></div>
+        <div><dt>Length</dt><dd>8 months hands-on, then live upkeep</dd></div>
+        <div><dt>Reach</dt><dd>1M+ downloads, live title</dd></div>
+        <div><dt>Tools</dt><dd>Unity 6, C#, Firebase, LevelPlay, Unity IAP</dd></div>
+      </dl>
+      <p class="lede">A virtual-pet and story-building game that was already live when I joined. I led its small code team, made it stable first, then added cat needs and new houses, and kept it shipping on Unity 6.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Stability</b><span class="d">Led the push that cut the Android crash rate tenfold in two months, from 1.67% to 0.17%, fixing Firebase stalls and null crashes. It has stayed below Google Play's threshold since.</span></li>
+          <li><span class="n">02</span><b>Saves and decor</b><span class="d">Rewrote saving for houses, furniture and owned items, migrated existing players' saves, and fixed drag and placement bugs.</span></li>
+          <li><span class="n">03</span><b>Cat needs</b><span class="d">Idle cats turn sad, bored or hungry and ask for food or items in a bubble, shown on the town map too.</span></li>
+          <li><span class="n">04</span><b>Themed houses</b><span class="d">Set up the haunted, bakery, camping and concert houses, with carnival spin-wheel odds and a fishing minigame.</span></li>
+          <li><span class="n">05</span><b>Shop and ads</b><span class="d">Re-laid out the store for phones and tablets, rewrote in-app purchases, and moved ads to LevelPlay mediation.</span></li>
+          <li><span class="n">06</span><b>Live ops</b><span class="d">Shipped 28 releases, upgraded the game to Unity 6, and added cross-promotion that Remote Config switches without an app update.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/clw-1.webp"><img src="img/clw-1.webp" alt="Cat Life World: designing characters and outfits" width="1400" height="647" loading="lazy"></a></li>
+          <li><a href="img/clw-2.webp"><img src="img/clw-2.webp" alt="Cat Life World: themed rooms" width="1400" height="647" loading="lazy"></a></li>
+          <li><a href="img/clw-3.webp"><img src="img/clw-3.webp" alt="Cat Life World: decorating a house" width="1400" height="647" loading="lazy"></a></li>
+          <li><a href="img/clw-4.webp"><img src="img/clw-4.webp" alt="Cat Life World: building a little cat town" width="1400" height="647" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/us/app/cat-life-world-build-a-story/id6465682875">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=se.abersoft.cat.life.world&amp;hl=en">Google Play</a></p>
+    </article>
+
+    <!-- 03 -->
+    <article class="card" id="go-go-cat-shelter" role="tabpanel" aria-labelledby="tab-go-go-cat-shelter"
+      data-no="03" data-code="GCS-2025" data-genre="ローグライク" data-band="Go Go Cat Shelter" data-role="Programmer and designer"
+      data-art="img/art-gcs.webp" data-full="img/gcs-1.webp">
+      <img class="card__art" src="img/art-gcs.webp" alt="Go Go Cat Shelter key art: a crying orange box-shaped cat next to the game logo" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">GCS-2025</p>
+        <h2>Go Go Cat Shelter <span class="sub">Asal Beliau Senang</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2025</dd></div>
+        <div><dt>Role</dt><dd>Programmer and game designer</dd></div>
+        <div><dt>Length</dt><dd>About 2 weeks</dd></div>
+        <div><dt>Team</dt><dd>Duo, with Lina on art</dd></div>
+        <div><dt>Genre</dt><dd>Board-game roguelike</dd></div>
+      </dl>
+      <p class="lede">A two-person entry for the Games+ Arcade Game Jam: I designed and programmed it, and Lina drew it. Roll the dice, rescue stray cats and keep the shelter fed for as long as you can. It plays in the browser in a few minutes.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Core loop</b><span class="d">Roll to move around the board. Every lap is a new day: the cats eat, scores multiply and the board reshuffles. Run out of food and the run ends.</span></li>
+          <li><span class="n">02</span><b>Board tiles</b><span class="d">Cat Food, Cash, Trade, Store, Question and Monster tiles, each a small risk-or-reward choice.</span></li>
+          <li><span class="n">03</span><b>Minigames</b><span class="d">Question and Monster tiles open short arcade-style minigames.</span></li>
+          <li><span class="n">04</span><b>Economy</b><span class="d">Food and cash, cats of three sizes to trade for, and investments that mature over the days.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/gcs-1.webp"><img src="img/gcs-1.webp" alt="Go Go Cat Shelter: the board around the cat shelter" width="600" height="1061" loading="lazy"></a></li>
+          <li><a href="img/gcs-2.webp"><img src="img/gcs-2.webp" alt="Go Go Cat Shelter: rolling the dice" width="591" height="1061" loading="lazy"></a></li>
+          <li><a href="img/gcs-3.webp"><img src="img/gcs-3.webp" alt="Go Go Cat Shelter: trading food for cats" width="597" height="1071" loading="lazy"></a></li>
+          <li><a href="img/gcs-4.webp"><img src="img/gcs-4.webp" alt="Go Go Cat Shelter: moving along the board" width="594" height="1069" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://farisharu.itch.io/go-go-cat-shelter">Play in browser</a><a class="btn" href="https://drive.google.com/file/d/1dSIxYBnJkRuH4Jl1XfbMYyajyQGBbRl2/view?usp=sharing">Pitch deck</a></p>
+    </article>
+
+    <!-- 04 -->
+    <article class="card" id="monkey-king" role="tabpanel" aria-labelledby="tab-monkey-king"
+      data-no="04" data-code="MKL-2025" data-genre="放置系RPG" data-band="Monkey King" data-role="Lead developer and designer"
+      data-art="img/art-mk.webp" data-full="img/mk-3.webp">
+      <img class="card__art" src="img/art-mk.webp" alt="Monkey King: the hero inventory screen" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">MKL-2025</p>
+        <h2>Monkey King <span class="sub">Legend of Heroes</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2025</dd></div>
+        <div><dt>Role</dt><dd>Lead developer and lead game designer</dd></div>
+        <div><dt>Length</dt><dd>7 months, plus a 2026 refactor</dd></div>
+        <div><dt>Genre</dt><dd>Idle RPG shooter</dd></div>
+        <div><dt>Tools</dt><dd>Unity 6, C#, Firebase, LevelPlay, Unity IAP</dd></div>
+      </dl>
+      <p class="lede">I was the lead developer and lead game designer. I designed the stats, economy and progression, built the menu screens, summons and the ads, purchase and analytics code, and reviewed nearly every pull request from the other three programmers.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Game design</b><span class="d">Hero and enemy stats, skills, the economy and progression, then tuned in data assets over a dozen balance passes.</span></li>
+          <li><span class="n">02</span><b>Menu screens</b><span class="d">The shop, hero, inventory, buddy deck, map and loading screens, including equipment sorting and auto-equip.</span></li>
+          <li><span class="n">03</span><b>Summons and offers</b><span class="d">Gate and relic summons, daily offers and the bundle data behind the in-game shop.</span></li>
+          <li><span class="n">04</span><b>Ads and analytics</b><span class="d">The ad, purchase and Firebase managers: LevelPlay and AdMob ads, Unity IAP, analytics and crash reporting.</span></li>
+          <li><span class="n">05</span><b>Retention</b><span class="d">Daily login rewards, local notifications, and badges that show which heroes can level up.</span></li>
+          <li><span class="n">06</span><b>2026 refactor</b><span class="d">Split the two largest classes into smaller services, cutting them by 39% and 47%, and added the project's first EditMode tests.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/mk-1.webp"><img src="img/mk-1.webp" alt="Monkey King: facing the horde" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/mk-2.webp"><img src="img/mk-2.webp" alt="Monkey King: building a team" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/mk-3.webp"><img src="img/mk-3.webp" alt="Monkey King: hero inventory" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/mk-4.webp"><img src="img/mk-4.webp" alt="Monkey King: boss fight" width="731" height="1300" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://monkey-king.onelink.me/TePF/MKstaWB">Get the game</a></p>
+    </article>
+
+    <!-- 05 -->
+    <article class="card" id="my-avatar" role="tabpanel" aria-labelledby="tab-my-avatar"
+      data-no="05" data-code="MAV-2026" data-genre="ペット育成" data-band="My Avatar" data-role="Lead developer"
+      data-art="img/art-ma.webp" data-full="img/ma-1.webp">
+      <img class="card__art" src="img/art-ma.webp" alt="My Avatar: a baby avatar in a kitchen" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">MAV-2026</p>
+        <h2>My Avatar <span class="sub">Virtual Pet Care</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2026</dd></div>
+        <div><dt>Role</dt><dd>Lead developer</dd></div>
+        <div><dt>Length</dt><dd>Aug 2025 to May 2026</dd></div>
+        <div><dt>Team</dt><dd>Two developers, with peer code review</dd></div>
+        <div><dt>Method</dt><dd>AI-assisted, with Claude as a chat-based coding assistant</dd></div>
+      </dl>
+      <p class="lede">I led development of this virtual pet game and wrote most of its code: the core systems, rooms, avatar, care loop, shop, ads and six of its nine minigames. A second developer built the garden and three minigames.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Core systems</b><span class="d">A save system with migration, plus the currency, stat and XP managers the rest of the game builds on.</span></li>
+          <li><span class="n">02</span><b>Avatar and wardrobe</b><span class="d">A Spine-animated avatar with makeup, body-part colours, life stages and a wardrobe system.</span></li>
+          <li><span class="n">03</span><b>Rooms and furniture</b><span class="d">Bedroom, bathroom, kitchen, playroom and lab, each with its own interactions, plus furniture to buy and equip.</span></li>
+          <li><span class="n">04</span><b>Care and crafting</b><span class="d">Pet stats that decay over time, with feeding, bathing, illness, stickers and potion crafting in the lab.</span></li>
+          <li><span class="n">05</span><b>Shop and ads</b><span class="d">A cash, gem and chest shop with in-app purchases, and banner, interstitial and rewarded ads set up for a young audience.</span></li>
+          <li><span class="n">06</span><b>Minigames</b><span class="d">Six of the nine minigames, including whack-a-mole, fruit slicing, card matching, a platformer and a 2048-style merge game.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/ma-1.webp"><img src="img/ma-1.webp" alt="My Avatar: the kitchen" width="600" height="1300" loading="lazy"></a></li>
+          <li><a href="img/ma-2.webp"><img src="img/ma-2.webp" alt="My Avatar: choosing a look" width="600" height="1300" loading="lazy"></a></li>
+          <li><a href="img/ma-3.webp"><img src="img/ma-3.webp" alt="My Avatar: the garden" width="600" height="1300" loading="lazy"></a></li>
+          <li><a href="img/ma-4.webp"><img src="img/ma-4.webp" alt="My Avatar: decorating a room" width="600" height="1300" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://my-avatar.onelink.me/aspx/94mpae7y">Get the game</a></p>
+    </article>
+
+    <!-- 06 -->
+    <article class="card" id="bubble-tanks" role="tabpanel" aria-labelledby="tab-bubble-tanks"
+      data-no="06" data-code="BTD-2024" data-genre="タワーディフェンス" data-band="Bubble Tanks" data-role="Tech lead"
+      data-art="img/art-bt.webp" data-full="img/bt-1.webp">
+      <img class="card__art" src="img/art-bt.webp" alt="Bubble Tanks: a tower surrounded by waves of enemies" width="720" height="720" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">BTD-2024</p>
+        <h2>Bubble Tanks <span class="sub">Idle Defense</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2024 to 2026</dd></div>
+        <div><dt>Role</dt><dd>Tech lead</dd></div>
+        <div><dt>Length</dt><dd>21 months</dd></div>
+        <div><dt>Team</dt><dd>3 programmers</dd></div>
+        <div><dt>Reach</dt><dd>10K+ downloads, rated 4.5</dd></div>
+      </dl>
+      <p class="lede">I joined before the first release and became tech lead for a team of three programmers. I reviewed and merged 232 pull requests, shipped 17 releases, and built the ads, analytics and live-ops tools around the combat my teammates wrote.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Ad mediation</b><span class="d">LevelPlay mediation with AdMob and Unity Ads, consent and iOS tracking prompts, later moved to the new LevelPlay API.</span></li>
+          <li><span class="n">02</span><b>Live-ops tools</b><span class="d">In-game bug reports that upload logs with the player ID, a remote force-update gate, and a rate-us prompt.</span></li>
+          <li><span class="n">03</span><b>Starter Pack</b><span class="d">A one-time in-app purchase offer for Android and iOS, built on Unity IAP and linked from the shop.</span></li>
+          <li><span class="n">04</span><b>Adventure tuning</b><span class="d">Data settings for Adventure mode: ring difficulty, spawn weights, enemy counts, chest and boss rewards, and a tiered EXP curve.</span></li>
+          <li><span class="n">05</span><b>Balance and bosses</b><span class="d">Tuned enemy, boss, weapon, spell and power-up values, and set up seven new bosses for episodes 9 to 15.</span></li>
+          <li><span class="n">06</span><b>Engine upgrade</b><span class="d">Moved the project from Unity 2023 to Unity 6 and kept the billing, ads and Firebase SDKs up to date.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/bt-1.webp"><img src="img/bt-1.webp" alt="Bubble Tanks: a busy wave" width="599" height="1300" loading="lazy"></a></li>
+          <li><a href="img/bt-2.webp"><img src="img/bt-2.webp" alt="Bubble Tanks: early wave" width="599" height="1300" loading="lazy"></a></li>
+          <li><a href="img/bt-3.webp"><img src="img/bt-3.webp" alt="Bubble Tanks: mid wave" width="599" height="1300" loading="lazy"></a></li>
+          <li><a href="img/bt-4.webp"><img src="img/bt-4.webp" alt="Bubble Tanks: boss wave" width="599" height="1300" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/us/app/bubble-tower-idle-defense/id6608965183">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=se.abersoft.bubble.tower&amp;hl=en">Google Play</a></p>
+    </article>
+
+    <!-- 07 -->
+    <article class="card" id="geometry-tank" role="tabpanel" aria-labelledby="tab-geometry-tank"
+      data-no="07" data-code="GTD-2026" data-genre="シューティング" data-band="Geometry Tank" data-role="Lead developer"
+      data-art="img/art-geo.webp" data-full="img/geo-2.webp">
+      <img class="card__art" src="img/art-geo.webp" alt="Geometry Tank: geometric tanks on a dark blue arena" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">GTD-2026</p>
+        <h2>Geometry Tank <span class="sub">Dash Adventure</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2026</dd></div>
+        <div><dt>Role</dt><dd>Lead developer and code reviewer</dd></div>
+        <div><dt>Length</dt><dd>7 weeks</dd></div>
+        <div><dt>Team</dt><dd>3 programmers</dd></div>
+        <div><dt>Reach</dt><dd>5K+ downloads, rated 4.9</dd></div>
+      </dl>
+      <p class="lede">I was the lead developer on a three-person programming team for this twin-stick tank shooter, reviewing and merging most pull requests. I built the weapon and bullet behaviours, the tank upgrade tree and enemy data, and the Firebase setup we launched with.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>Weapons</b><span class="d">The machine gun, bubble thrower, apocalypse cannon, shield, radar and enemy health readout.</span></li>
+          <li><span class="n">02</span><b>Bullet types</b><span class="d">Twelve bullet behaviours, including piercing, ricochet, leech, sticky, stun, mine and whip shots.</span></li>
+          <li><span class="n">03</span><b>Upgrade tree</b><span class="d">Most of the 80 tank templates, each linked to its next choices from Class 1 to Class 6.</span></li>
+          <li><span class="n">04</span><b>Enemy roster</b><span class="d">All 30 enemy types across six tiers, from Weak to Apocalyptic, that fill the arenas as you push outward.</span></li>
+          <li><span class="n">05</span><b>Firebase</b><span class="d">Analytics, Crashlytics and Remote Config, with gameplay events and a forced update check.</span></li>
+          <li><span class="n">06</span><b>Launch</b><span class="d">App icon, bundle ID and player settings, then cut the 1.0 release.</span></li>
+        </ol>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/geo-1.webp"><img src="img/geo-1.webp" alt="Geometry Tank: blasting through waves" width="1400" height="788" loading="lazy"></a></li>
+          <li><a href="img/geo-2.webp"><img src="img/geo-2.webp" alt="Geometry Tank: choosing a tank" width="1400" height="788" loading="lazy"></a></li>
+          <li><a href="img/geo-3.webp"><img src="img/geo-3.webp" alt="Geometry Tank: geometric battle" width="1400" height="788" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://geometry-tank.onelink.me/Hih2/ykp3uq29">Get the game</a></p>
+    </article>
+
+    <!-- 08 -->
+    <article class="card" id="kiko-survivor" role="tabpanel" aria-labelledby="tab-kiko-survivor"
+      data-no="08" data-code="KSV-2024" data-genre="サバイバルアクション" data-band="Kiko Survivor" data-role="Lead programmer"
+      data-art="img/art-ks.webp" data-full="img/ks-2.webp">
+      <img class="card__art" src="img/art-ks.webp" alt="Kiko Survivor: Kiko surrounded by a crowd of enemies" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">KSV-2024</p>
+        <h2>Kiko Survivor</h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2024</dd></div>
+        <div><dt>Role</dt><dd>Lead programmer</dd></div>
+        <div><dt>Length</dt><dd>11 months</dd></div>
+        <div><dt>Genre</dt><dd>Survivor-style action, licensed IP</dd></div>
+      </dl>
+      <p class="lede">Survivor-style action set in the Kiko animated series: Kiko and Poli get pulled into a broken game and have to fight their way out.</p>
+      <section class="mods">
+        <h3><span lang="ja">特徴</span>Game features</h3>
+        <ul class="feat">
+          <li>Hundreds of enemies and giant bosses on screen at once</li>
+          <li>Play as Kiko, Poli, Lola and other characters</li>
+          <li>Upgrade and evolve weapons</li>
+          <li>Simple controls that need only one hand</li>
+        </ul>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/ks-1.webp"><img src="img/ks-1.webp" alt="Kiko Survivor: key art" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/ks-2.webp"><img src="img/ks-2.webp" alt="Kiko Survivor: defeat enemies" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/ks-3.webp"><img src="img/ks-3.webp" alt="Kiko Survivor: challenge bosses" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/ks-4.webp"><img src="img/ks-4.webp" alt="Kiko Survivor: level up gears" width="731" height="1300" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/id/app/kiko-survivor/id6502696588?l=id">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.esi.games.kikosurvivor">Google Play</a></p>
+    </article>
+
+    <!-- 09 -->
+    <article class="card" id="kiko-run" role="tabpanel" aria-labelledby="tab-kiko-run"
+      data-no="09" data-code="KRN-2023" data-genre="エンドレスラン" data-band="Kiko Run" data-role="Lead programmer"
+      data-art="img/art-kr.webp" data-full="img/kr-1.webp">
+      <img class="card__art" src="img/art-kr.webp" alt="Kiko Run: Kiko and friends" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">KRN-2023</p>
+        <h2>Kiko Run <span class="sub">In the Deep Sea</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2023</dd></div>
+        <div><dt>Role</dt><dd>Lead programmer</dd></div>
+        <div><dt>Length</dt><dd>10 months</dd></div>
+        <div><dt>Genre</dt><dd>3D endless runner, licensed IP</dd></div>
+      </dl>
+      <p class="lede">A 3D endless runner through the underwater world of the Kiko animated series.</p>
+      <section class="mods">
+        <h3><span lang="ja">特徴</span>Game features</h3>
+        <ul class="feat">
+          <li>Environments built from locations in the series</li>
+          <li>Missions and rewards that keep growing as you play</li>
+          <li>Several power-ups active at the same time</li>
+          <li>Kiko's friends join to help along the run</li>
+        </ul>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/kr-1.webp"><img src="img/kr-1.webp" alt="Kiko Run: visit Kiko and his friends' homes" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/kr-2.webp"><img src="img/kr-2.webp" alt="Kiko Run: collect costumes" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/kr-3.webp"><img src="img/kr-3.webp" alt="Kiko Run: open treasure chests" width="731" height="1300" loading="lazy"></a></li>
+          <li><a href="img/kr-4.webp"><img src="img/kr-4.webp" alt="Kiko Run: daily spin wheel" width="731" height="1300" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/id/app/kiko-run/id1448849890?l=id">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.mncgames.play.kikorun">Google Play</a></p>
+    </article>
+
+    <!-- 10 -->
+    <article class="card" id="weatherby" role="tabpanel" aria-labelledby="tab-weatherby"
+      data-no="10" data-code="WBY-2022" data-genre="インタラクティブ漫画" data-band="Weatherby" data-role="Game programmer"
+      data-art="img/art-wb.webp" data-full="img/wb-1.webp">
+      <img class="card__art" src="img/art-wb.webp" alt="Weatherby: a boy in a bear mask seen through a round window" width="720" height="720" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">WBY-2022</p>
+        <h2>Weatherby</h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2022</dd></div>
+        <div><dt>Role</dt><dd>Game programmer</dd></div>
+        <div><dt>Length</dt><dd>3 months</dd></div>
+        <div><dt>Genre</dt><dd>Interactive comic (hypercomic)</dd></div>
+      </dl>
+      <p class="lede">An interactive comic about Arthur, a boy who hides behind a bear mask. Players make his decisions as he takes his first steps out of his shell.</p>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/wb-1.webp"><img src="img/wb-1.webp" alt="Weatherby: Arthur behind the window" width="640" height="360" loading="lazy"></a></li>
+          <li><a href="img/wb-2.webp"><img src="img/wb-2.webp" alt="Weatherby: comic panels" width="384" height="216" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://marispier.itch.io/weatherby-prologue-hypercomic">Play on itch.io</a></p>
+    </article>
+
+    <!-- 11 -->
+    <article class="card" id="jelimata" role="tabpanel" aria-labelledby="tab-jelimata"
+      data-no="11" data-code="JLM-2020" data-genre="アイテム探し" data-band="Jelimata" data-role="Game programmer and designer"
+      data-art="img/art-jl.webp" data-full="img/jl-1.webp">
+      <img class="card__art" src="img/art-jl.webp" alt="Jelimata: an illustrated Indonesian village full of hidden objects" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">JLM-2020</p>
+        <h2>Jelimata <span class="sub">Hidden Object</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2020</dd></div>
+        <div><dt>Role</dt><dd>Game programmer and designer</dd></div>
+        <div><dt>Length</dt><dd>6 months</dd></div>
+        <div><dt>Studio</dt><dd>PT Weefer Indonesia</dd></div>
+      </dl>
+      <p class="lede">A hidden-object game for learning about Indonesian culture: every object comes with a short description of where it's from.</p>
+      <section class="mods">
+        <h3><span lang="ja">特徴</span>Game features</h3>
+        <ul class="feat">
+          <li>25+ levels that get harder as you go</li>
+          <li>250+ hidden objects to find</li>
+          <li>58+ cultural objects from across Indonesia, each with a description</li>
+        </ul>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/jl-1.webp"><img src="img/jl-1.webp" alt="Jelimata: a village scene" width="1400" height="1049" loading="lazy"></a></li>
+          <li><a href="img/jl-2.webp"><img src="img/jl-2.webp" alt="Jelimata: a treehouse scene" width="1400" height="1049" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/id/app/jelimata-hidden-object/id1544460211">App Store</a><a class="btn" href="https://play.google.com/store/apps/details?id=com.Weefer.JelimataHiddenObject">Google Play</a></p>
+    </article>
+
+    <!-- 12 -->
+    <article class="card" id="work-runner" role="tabpanel" aria-labelledby="tab-work-runner"
+      data-no="12" data-code="WRK-2020" data-genre="エンドレスラン" data-band="Work Runner" data-role="Game programmer and designer"
+      data-art="img/art-wr.webp" data-full="img/wr-3.webp">
+      <img class="card__art" src="img/art-wr.webp" alt="Work Runner: the runner passing a Weefer sign" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">WRK-2020</p>
+        <h2>Work Runner</h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2020</dd></div>
+        <div><dt>Role</dt><dd>Game programmer and platform designer</dd></div>
+        <div><dt>Length</dt><dd>6 months</dd></div>
+        <div><dt>Studio</dt><dd>PT Weefer Indonesia</dd></div>
+      </dl>
+      <p class="lede">An endless runner about a late office worker, across five stages. It was our team's first project built fully remotely, and it took several rounds of iteration to make it fun.</p>
+      <section class="mods">
+        <h3><span lang="ja">特徴</span>Game features</h3>
+        <ul class="feat">
+          <li>Run, jump and slide through five areas on the way to the office</li>
+          <li>Coffee and soda for speed boosts</li>
+          <li>Candy, cookies and crystals to collect</li>
+        </ul>
+      </section>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/wr-1.webp"><img src="img/wr-1.webp" alt="Work Runner: title and settings" width="1400" height="787" loading="lazy"></a></li>
+          <li><a href="img/wr-2.webp"><img src="img/wr-2.webp" alt="Work Runner: running past a sign" width="1400" height="790" loading="lazy"></a></li>
+          <li><a href="img/wr-3.webp"><img src="img/wr-3.webp" alt="Work Runner: the Weefer office" width="1400" height="788" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/id/app/work-runner/id1513810751">App Store</a></p>
+    </article>
+
+    <!-- 13 -->
+    <article class="card" id="bitter-dream" role="tabpanel" aria-labelledby="tab-bitter-dream"
+      data-no="13" data-code="BTR-2020" data-genre="ステルスパズル" data-band="Bitter Dream" data-role="Game programmer and designer"
+      data-art="img/art-bd.webp" data-full="img/bd-3.webp">
+      <img class="card__art" src="img/art-bd.webp" alt="Bitter Dream: a little panda in a dusty attic" width="1000" height="1000" loading="lazy">
+      <header class="card__head">
+        <p class="card__code">BTR-2020</p>
+        <h2>Bitter Dream <span class="sub">Demo</span></h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Year</dt><dd>2020</dd></div>
+        <div><dt>Role</dt><dd>Game programmer and designer</dd></div>
+        <div><dt>Length</dt><dd>3 months</dd></div>
+        <div><dt>Engine</dt><dd>SpriteKit</dd></div>
+      </dl>
+      <p class="lede">A story-driven stealth puzzle adventure: keep the little panda from getting caught while the story of the house comes out. My first SpriteKit project; I helped design the gameplay and wrote part of the code.</p>
+      <section class="shots">
+        <h3><span lang="ja">画面</span>Screens</h3>
+        <ul>
+          <li><a href="img/bd-1.webp"><img src="img/bd-1.webp" alt="Bitter Dream: reading a diary" width="1400" height="647" loading="lazy"></a></li>
+          <li><a href="img/bd-2.webp"><img src="img/bd-2.webp" alt="Bitter Dream: title screen" width="1400" height="644" loading="lazy"></a></li>
+          <li><a href="img/bd-3.webp"><img src="img/bd-3.webp" alt="Bitter Dream: the attic" width="1400" height="1049" loading="lazy"></a></li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="https://apps.apple.com/id/app/bitter-dream/id1540025958">App Store</a></p>
+    </article>
+
+    <!-- 14 -->
+    <article class="card" id="potion-permit" role="tabpanel" aria-labelledby="tab-potion-permit"
+      data-no="14" data-code="PPM-2019" data-genre="ライフシムRPG" data-band="Potion Permit" data-role="Junior programmer"
+      data-kanji="薬">
+      <header class="card__head">
+        <p class="card__code">PPM-2019</p>
+        <h2>Potion Permit</h2>
+      </header>
+      <dl class="meta">
+        <div><dt>Years</dt><dd>2018–2019</dd></div>
+        <div><dt>Role</dt><dd>Junior programmer</dd></div>
+        <div><dt>Studio</dt><dd>Masshive Media</dd></div>
+        <div><dt>Platforms</dt><dd>Steam, PlayStation, Xbox, Nintendo Switch, Android, iOS</dd></div>
+      </dl>
+      <p class="lede">A pixel-art life-sim RPG about a chemist in a small town, and the first commercial game I worked on.</p>
+      <section class="mods">
+        <h3><span lang="ja">担当</span>What I built</h3>
+        <ol>
+          <li><span class="n">01</span><b>AI framework</b><span class="d">A ScriptableObject-driven AI framework, so behaviour could be tuned without touching code.</span></li>
+          <li><span class="n">02</span><b>Dog companion</b><span class="d">The finite state machine behind the dog companion.</span></li>
+          <li><span class="n">03</span><b>Shaders</b><span class="d">Hand-written shaders for occlusion silhouettes, water reflections, shadows and outlines.</span></li>
+          <li><span class="n">04</span><b>World building</b><span class="d">Helped build five biomes with Unity tilesets: city, forest, desert, snow and jungle.</span></li>
+        </ol>
+      </section>
+      <p class="get"><a class="btn" href="https://store.steampowered.com/app/1337760/Potion_Permit/">Steam page</a></p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===================== PROFILE ===================== -->
+<section class="view view--profile" id="profile" data-view="profile" aria-labelledby="profile-h">
+  <div class="sheet">
+    <div class="poster" aria-hidden="true">
+      <p class="poster__name">Faris<span class="poster__sun"></span></p>
+      <p class="poster__kana" lang="ja">ファリス</p>
+      <p class="poster__tag"><span class="hazard"></span><span>Player profile</span><span class="barcode" data-code="PLAYER01"></span></p>
+    </div>
+    <div class="sheet__body">
+      <h2 class="screen-title" id="profile-h"><span lang="ja">プロフィール</span>Profile</h2>
+      <p class="intro">I've shipped mobile games in Indonesia since 2018: first as a programmer, then leading programming teams, and lately running whole projects. I still read the code, which helps me show a team what a creative decision will cost before we commit to it.</p>
+      <p class="intro__ja" lang="ja">プログラマーからプロデューサーへ</p>
+
+      <dl class="spec">
+        <div><dt>Based in</dt><dd>Surabaya, Indonesia</dd></div>
+        <div><dt>Making games since</dt><dd>2018, after a 2017 internship</dd></div>
+        <div><dt>Released titles</dt><dd>14</dd></div>
+        <div><dt>Biggest audience</dt><dd>1M+ downloads</dd></div>
+        <div><dt>Largest team led</dt><dd>7 programmers on 2 projects at once</dd></div>
+        <div><dt>Engines</dt><dd>Unity (C#), SpriteKit</dd></div>
+        <div><dt>Platforms</dt><dd>iOS, Android, WebGL; Steam and consoles on Potion Permit</dd></div>
+        <div><dt>Languages</dt><dd>Indonesian, English</dd></div>
+      </dl>
+
+      <section class="block">
+        <h3><span lang="ja">現在</span>Now</h3>
+        <ul class="plain">
+          <li><b>Game Lead Developer</b> at Abersoft Technologies, since 2024</li>
+          <li><b>Game Programmer</b> at Semisoft Entertainment Studios, since 2025</li>
+        </ul>
+      </section>
+      <section class="block">
+        <h3><span lang="ja">未発表</span>Unreleased, 2021–2024</h3>
+        <ul class="plain">
+          <li>A racing sport game on the Kiko IP, leading two programmers</li>
+          <li>An educational app for expectant mothers, built around a professor's research at an Indonesian university</li>
+          <li>A customisable spin-wheel web app</li>
+          <li>AR indoor navigation that starts from a scanned QR code</li>
+          <li>An Instagram filter made with Spark AR</li>
+        </ul>
+      </section>
+      <p class="get"><a class="btn" href="#titles" data-go="titles">Browse titles</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CREDITS ===================== -->
+<section class="view view--credits" id="credits" data-view="credits" aria-labelledby="credits-h">
+  <div class="credits">
+    <h2 class="screen-title" id="credits-h"><span lang="ja">経歴</span>Credits</h2>
+    <div class="credits__cols">
+      <section>
+        <h3><span lang="ja">スタジオ</span>Studios</h3>
+        <ul class="roll">
+          <li><span class="role">Game Lead Developer</span><span class="org">Abersoft Technologies</span><span class="yr">2024–now</span></li>
+          <li><span class="role">Game Programmer</span><span class="org">Semisoft Entertainment Studios</span><span class="yr">2025–now</span></li>
+          <li><span class="role">Senior Programmer, then Programmer Coordinator</span><span class="org">PT Esports Star Indonesia</span><span class="yr">2022–2024</span></li>
+          <li><span class="role">Senior Programmer</span><span class="org">PT Weefer Indonesia</span><span class="yr">2019–2022</span></li>
+          <li><span class="role">Junior Programmer</span><span class="org">Masshive Media</span><span class="yr">2018–2019</span></li>
+          <li><span class="role">Programming Intern</span><span class="org">Arsanesia Studio</span><span class="yr">2017</span></li>
+        </ul>
+      </section>
+      <section>
+        <h3><span lang="ja">教育活動</span>Teaching</h3>
+        <ul class="roll">
+          <li><span class="role">Industry practitioner lecturer</span><span class="org">IPB University</span><span class="yr">2024</span></li>
+          <li><span class="role">Mentor, Best Mentor award</span><span class="org">Skilvul</span><span class="yr">2024</span></li>
+          <li><span class="role">Adjunct lecturer, Game Technology</span><span class="org">Polimedia</span><span class="yr">2021–2023</span></li>
+          <li><span class="role">Unity certification instructor</span><span class="org">MyEduSolve</span><span class="yr">2022</span></li>
+          <li><span class="role">Mentor</span><span class="org">Agate Academy</span><span class="yr">2020</span></li>
+        </ul>
+      </section>
+      <section>
+        <h3><span lang="ja">学歴</span>Education</h3>
+        <ul class="roll">
+          <li><span class="role">Bachelor of Applied Science, Game Technology, cum laude</span><span class="org">Politeknik Elektronika Negeri Surabaya</span><span class="yr">2018</span></li>
+          <li><span class="role">Apple Developer Academy</span><span class="org">Universitas Ciputra</span><span class="yr">2020</span></li>
+          <li><span class="role">Exchange student, Kennedy-Lugar YES</span><span class="org">Kauai High School, Hawaii</span><span class="yr">2012–2013</span></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="view view--contact" id="contact" data-view="contact" aria-labelledby="contact-h">
+  <div class="contact">
+    <p class="contact__kanji" lang="ja" aria-hidden="true">連絡</p>
+    <h2 class="screen-title" id="contact-h"><span lang="ja">連絡先</span>Contact</h2>
+    <p class="get"><a class="btn" href="mailto:faris.putra11@gmail.com" title="faris.putra11@gmail.com">Email</a><a class="btn" href="https://www.linkedin.com/in/faris-putra">LinkedIn</a><a class="btn" href="https://github.com/farisharu">GitHub</a><a class="btn" href="https://farisharu.itch.io/">itch.io</a></p>
+    <div class="hazard hazard--wide" aria-hidden="true"></div>
+    <p class="small">Game screenshots and artwork belong to their publishers and are shown as samples of my work. Go Go Cat Shelter art by Lina.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== BOTTOM BAR ===================== -->
+<footer class="bar bar--bottom">
+  <button class="pad" type="button" data-step="-1" aria-label="Previous title"><span class="pad__key" aria-hidden="true">◀</span><span class="pad__ja" lang="ja" aria-hidden="true">前へ</span><span class="pad__txt" aria-hidden="true">Prev</span></button>
+  <p class="pos" aria-live="polite"><span class="pos__now">01</span><span class="pos__of"> / 14</span><span class="pos__name">Influencer Girl</span></p>
+  <button class="pad" type="button" data-step="1" aria-label="Next title"><span class="pad__txt" aria-hidden="true">Next</span><span class="pad__ja" lang="ja" aria-hidden="true">次へ</span><span class="pad__key" aria-hidden="true">▶</span></button>
+  <p class="hint">Arrow keys switch titles</p>
+</footer>
+
+<dialog class="viewer" aria-label="Screenshot">
+  <form method="dialog" class="viewer__bar"><span class="viewer__cap"></span><button class="btn btn--sm" value="close">Close</button></form>
+  <img class="viewer__img" src="" alt="">
+</dialog>
+
+</div>
+<script src="main.js" defer></script>
+</body>
+</html>
