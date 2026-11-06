@@ -36,5 +36,5 @@ Double-click `index.html`. It opens in Chrome or Edge and works offline.
 ## Notes
 - **Phone number left out on purpose.** Public pages attract spam.
 - **No CV on the site, by choice.** The CV is sent by email only. The front screen shows only "Faris".
-- **Screenshot credit.** Game screenshots come from your portfolio PDF and belong to their publishers. A credit line sits on the Contact screen.
+- **Screenshot credit.** Game screenshots come from your portfolio PDF, your itch.io pages, or the official Steam page (Potion Permit), and belong to their publishers. A credit line sits on the Contact screen.
 - **Fonts.** Archivo, Zen Kaku Gothic New and Dela Gothic One, all under the SIL Open Font License (see `fonts/`).
